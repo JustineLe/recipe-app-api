@@ -16,5 +16,8 @@ First, start docker
 Then run:
 `docker-compose run --rm app sh -c "flake8"`
 
-# Superuser account
+# To create superuser account
+First, start docker  
+Then run:  
+`docker-compose run --rum app sh -c "python manage.py createsuperuser"`
 superuser@example.com/123456a@
